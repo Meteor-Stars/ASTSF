@@ -11,7 +11,7 @@ In real-world industrial scenarios (e.g., fund sales, e-commerce), different tim
 We propose the **self-Adaptive Scale-handling (AS)** module that learns adaptive scale factors tailored to each input, preserving semantic discriminability while reducing inverse-scaling errors.
 
 ![Motivation](figure/motivation.jpg)
-*Left: Our adaptive scaling learns appropriate scaling levels from data. Right: Traditional scaling uniformly maps everything to ~1, losing inter-series discriminability and amplifying restoration errors.*
+**Left:** Our adaptive scaling learns appropriate scaling levels from data. **Right:** Traditional scaling uniformly maps everything to ~1, losing inter-series discriminability and amplifying restoration errors.
 
 ## Method
 
