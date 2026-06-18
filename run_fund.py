@@ -256,6 +256,7 @@ if __name__ == "__main__":
     # mode = [[True,False,False,False]]
     # mode=[[False,True,False,False]]
     # mode = [[False,True,False,True]]
+
     for ta_g in tag:
         for data_type in data_type_all:
             for pred_l in pred_len:
