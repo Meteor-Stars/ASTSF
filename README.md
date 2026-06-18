@@ -21,8 +21,14 @@ The AS module consists of two sub-modules:
 
 2. **Scaling Selection (SS)**: A Gumbel-Softmax parameterized Bernoulli decision that determines, for each window, whether to use the calibrated factor $\overline{v}_i$ or retain the original $v_i$. This prevents over-calibration on already well-suited prior mean scaling factors.
 
-![Framework](figure/framework.jpg)
-*AS framework: (1) extract temporal features from input windows; (2) compute calibration coefficient $\hat{\lambda}$ and binary calibration flag $d_i$; (3) apply scaling — if flag is 1, calibrate the prior mean scaling factor; otherwise, retain original.*
+
+<p align="center">
+<img src="figure/framework.jpg" alt="替代文本" width="auto" height="360">
+</p>
+
+
+
+**AS framework**: (1) extract temporal features from input windows; (2) compute calibration coefficient $\hat{\lambda}$ and binary calibration flag $d_i$; (3) apply scaling — if flag is 1, calibrate the prior mean scaling factor; otherwise, retain original.
 
 The AS module is architecture-agnostic and can be seamlessly integrated into any TSF backbone for end-to-end training.
 
