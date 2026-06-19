@@ -1,6 +1,8 @@
 
 # Self-Adaptive Scale Handling for Forecasting Time Series with Scale Heterogeneity (AS, ICASSP 2024)
 
+ The full version paper is available at the link [Paper (PDF)](https://arxiv.org/pdf/2606.20010). 
+
 ## Overview
 
 In real-world industrial scenarios (e.g., fund sales, e-commerce), different time series often differ by orders of magnitude — this is called **scale heterogeneity**. Since these series share similar temporal patterns, joint modeling is desirable. However, existing scaling methods fall short:
